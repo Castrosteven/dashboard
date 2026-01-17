@@ -4,7 +4,7 @@ import { ValueProps } from "@/components/value-props";
 
 export default function Home() {
   return (
-    <main>
+    <main className="container mx-auto">
       <Hero
         heading="Discover and host events after five."
         subheading=" Your city comes alive."
