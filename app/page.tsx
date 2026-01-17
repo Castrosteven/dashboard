@@ -1,7 +1,6 @@
 import { Hero } from "@/components/hero";
 import { EventGallery } from "@/components/event-gallery";
 import { ValueProps } from "@/components/value-props";
-import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
       />
       <EventGallery />
       <ValueProps />
-      <Footer />
     </main>
   );
 }
